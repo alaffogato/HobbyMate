@@ -1,0 +1,6 @@
+{
+  "name": "HobbyPulse - AI Hobby Coach & Real-Time Tribe Finder",
+  "description": "Customized 15-minute hobby plans from your social bookmarks, real-time live map to find local HobbyMates, organic chat coaching, and relative progress leveling.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,216 @@
+---
+name: Kinetic Blurple Pulse
+colors:
+  surface: '#f7f9ff'
+  surface-dim: '#d6dae1'
+  surface-bright: '#f7f9ff'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#f0f4fa'
+  surface-container: '#eaeef5'
+  surface-container-high: '#e4e8ef'
+  surface-container-highest: '#dfe3e9'
+  on-surface: '#171c21'
+  on-surface-variant: '#454655'
+  inverse-surface: '#2c3136'
+  inverse-on-surface: '#edf1f8'
+  outline: '#767686'
+  outline-variant: '#c6c5d7'
+  surface-tint: '#3f4cda'
+  primary: '#3d4ad8'
+  on-primary: '#ffffff'
+  primary-container: '#5865f2'
+  on-primary-container: '#fffdff'
+  inverse-primary: '#bec2ff'
+  secondary: '#006d32'
+  on-secondary: '#ffffff'
+  secondary-container: '#65ff92'
+  on-secondary-container: '#007435'
+  tertiary: '#b71725'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#db343a'
+  on-tertiary-container: '#fffdff'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#e0e0ff'
+  primary-fixed-dim: '#bec2ff'
+  on-primary-fixed: '#000569'
+  on-primary-fixed-variant: '#222fc2'
+  secondary-fixed: '#65ff92'
+  secondary-fixed-dim: '#43e179'
+  on-secondary-fixed: '#00210a'
+  on-secondary-fixed-variant: '#005224'
+  tertiary-fixed: '#ffdad7'
+  tertiary-fixed-dim: '#ffb3ae'
+  on-tertiary-fixed: '#410005'
+  on-tertiary-fixed-variant: '#930016'
+  background: '#f7f9ff'
+  on-background: '#171c21'
+  surface-variant: '#dfe3e9'
+typography:
+  display-lg:
+    fontFamily: Space Grotesk
+    fontSize: 3rem
+    fontWeight: '700'
+    lineHeight: 3.5rem
+    letterSpacing: -0.03em
+  headline-lg:
+    fontFamily: Space Grotesk
+    fontSize: 2.25rem
+    fontWeight: '700'
+    lineHeight: 2.75rem
+    letterSpacing: -0.02em
+  headline-lg-mobile:
+    fontFamily: Space Grotesk
+    fontSize: 1.75rem
+    fontWeight: '700'
+    lineHeight: 2.25rem
+    letterSpacing: -0.02em
+  headline-md:
+    fontFamily: Space Grotesk
+    fontSize: 1.5rem
+    fontWeight: '600'
+    lineHeight: 2rem
+    letterSpacing: -0.015em
+  headline-sm:
+    fontFamily: Space Grotesk
+    fontSize: 1.125rem
+    fontWeight: '600'
+    lineHeight: 1.5rem
+    letterSpacing: -0.01em
+  title-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 1rem
+    fontWeight: '600'
+    lineHeight: 1.375rem
+  body-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 1.0625rem
+    fontWeight: '400'
+    lineHeight: 1.625rem
+  body-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 0.9375rem
+    fontWeight: '400'
+    lineHeight: 1.4375rem
+  body-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 0.8125rem
+    fontWeight: '400'
+    lineHeight: 1.25rem
+  label-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 0.875rem
+    fontWeight: '700'
+    lineHeight: 1.125rem
+    letterSpacing: 0.01em
+  label-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 0.75rem
+    fontWeight: '700'
+    lineHeight: 1rem
+    letterSpacing: 0.02em
+  label-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 0.6875rem
+    fontWeight: '600'
+    lineHeight: 0.875rem
+    letterSpacing: 0.04em
+rounded:
+  sm: 0.5rem
+  DEFAULT: 1rem
+  md: 1.5rem
+  lg: 2rem
+  xl: 3rem
+  full: 9999px
+spacing:
+  gutter: 1rem
+  gutter-desktop: 1.5rem
+  margin: 1rem
+  margin-desktop: 2rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2.5rem
+---
+
+## Brand & Style
+
+This design system blends the immediate, conversational energy of Discord with the geographic legibility and real-time vitality of activity mapping interfaces. The visual language evokes movement, communal presence, and effortless clarity under daylight conditions. It rejects dreary corporate dashboards in favor of an energetic, playful, yet hyper-structured aesthetic.
+
+The design movement centers on modern high-contrast tactile minimalism: ultra-crisp white floating surfaces, micro-tinted cool neutral planes, vibrant digital indigo-blurple accents, and tactile pill geometry. Spatial relationships are defined by crisp tonal contrast and deliberate soft shadows rather than dense borders.
+
+Targeting dynamic teams, social coordinators, and active communities, the experience elicits feelings of kinetic connection, clarity, and instant situational awareness.
+
+## Colors
+
+The palette operates on high-clarity daylight values. The base viewport and primary interactive surfaces utilize stark white (`#FFFFFF`) against backdrop planes of cool lavender-tinted grays (`#F2F3F5` and `#EBEDEF`), guaranteeing depth separation across map viewports, channels, and activity panels.
+
+- **Primary (`#5865F2`)**: Discord Blurple. Drives primary CTAs, active route lines, selected pin states, unread channel indicators, and interactive focal points.
+- **Secondary (`#57F287`)**: Vibrant Mint. Represents live status, online presence, active geofences, and positive telemetry signals.
+- **Tertiary (`#ED4245`)**: Coral Ember. Expresses alerts, destination pins, critical pings, voice channel disconnects, and recording states.
+- **Accent Highlight (`#FEE75C`)**: Sun Gold. Used sparingly for achievements, VIP presence beacons, boosted servers, and highlighted waypoints.
+- **Text & Neutral Foundations**: Headlines and high-impact text anchor on dense obsidian (`#060607`), while body text, metadata, and channel lists use crisp slate (`#2E3338`) and muted zinc (`#4E5058`).
+
+## Typography
+
+The pairing combines the technical, geometric personality of `Space Grotesk` for headlines and geographic telemetry tags with the legible, friendly contours of `Plus Jakarta Sans` for communicative channel copy, system feedback, and high-density chat logs.
+
+- **Headlines & Metric Readouts (`Space Grotesk`)**: Tight tracking, strong vertical rhythm, and unmistakable numbers make distances, coordinates, and channel titles immediately scannable over complex map viewports.
+- **Body & Controls (`Plus Jakarta Sans`)**: Generous aperture and robust x-height maintain complete clarity on small viewports and active motion tracking panels.
+- **Micro-labels**: Rendered in uppercase bold with slight letter tracking (`0.02em` to `0.04em`) to designate live activity states, member role caps, and map cluster counts without visual clutter.
+
+## Layout & Spacing
+
+The structural layout relies on an asymmetrical multi-pane architecture tailored for simultaneous spatial mapping and persistent stream communication:
+
+- **Desktop (1280px+)**: A continuous 3-pane model. Left column (72px server/activity icon rail), mid-left drawer (240px channel and geofence directory), expansive central/right map canvas with floating chat and member cards anchored via `margin-desktop`.
+- **Tablet (768px - 1279px)**: Channels collapse into an off-canvas slide-out sheet; map stays primary with a dockable, semi-transparent split-screen chat tray.
+- **Mobile (< 768px)**: Full-bleed viewport map overlay with a bottom-sheet draggable surface (`space-md` inner padding, `margin` boundary) containing activity feeds, active voice rooms, and location breadcrumbs.
+- **Rhythm**: UI density strictly adheres to 4px/8px increments. Dense list items (channel titles, message threads) use `space-xs` and `space-sm` gaps, while floating HUD widgets maintain `space-lg` separation to avoid obstructing map interactions.
+
+## Elevation & Depth
+
+Visual hierarchy uses clean floating daylight elevation rather than heavy borders or dark scrims:
+
+- **Canvas Level (Level 0)**: The base map layer and application background (`#EBEDEF`).
+- **Secondary Panes (Level 1)**: Channel sidebars, member lists, and activity feeds resting flat on `#F2F3F5` with no shadow, distinguished solely by tonal plane separation.
+- **Floating HUD & Cards (Level 2)**: Crisp `#FFFFFF` surface containers featuring an ambient, diffused shadow: `0 4px 16px -2px rgba(46, 51, 56, 0.08), 0 2px 6px -1px rgba(46, 51, 56, 0.04)`.
+- **Modals, Floating Action Chips & Active Pins (Level 3)**: High-altitude elements elevated with a Blurple-tinted ambient glow: `0 12px 32px -4px rgba(88, 101, 242, 0.18), 0 4px 12px -2px rgba(46, 51, 56, 0.08)`.
+- **Backdrop Blur**: Floating panels over the live map employ a subtle `backdrop-filter: blur(16px)` with `background-color: rgba(255, 255, 255, 0.88)` to retain the presence of geographic contours while keeping data entirely legible.
+
+## Shapes
+
+The design system embraces an ultra-modern pill geometry (roundedness factor `3`), balancing Discord's squircle motif with the aerodynamic curves of activity and sports tracking interfaces:
+
+- **Controls & Buttons**: Full capsule (`9999px` radius) styling across primary buttons, status pills, filter chips, and floating waypoint markers.
+- **Cards & Floating Overlays**: `rounded-xl` (`2rem` / `32px` on large cards, `1.5rem` / `24px` on medium panels), presenting soft, friendly perimeters that feel tactile and responsive.
+- **Avatars & Map Pins**: Base avatar icons use smooth squircles (`rounded-lg` / `1rem`), transforming into complete circles when anchored directly to map pins or live audio broadcast rings.
+
+## Components
+
+### Buttons & Interactive Controls
+- **Primary Action Button**: High-saturation blurple (`#5865F2`) pill with white typography (`#FFFFFF`). Dynamic hover transitions to `#4752C4` with a gentle `scale(1.02)` lift.
+- **Secondary / Action Pill**: Crisp white surface (`#FFFFFF`) with dark slate typography (`#2E3338`), elevation level 2, and subtle hover tint (`#F2F3F5`).
+- **Live Status Button**: Mint green base (`#57F287`) with high-contrast obsidian copy (`#060607`) for "Join Live Run", "Broadcast Location", or "Active Voice".
+
+### Chips & Activity Badges
+- **Channel / Route Filter Chips**: Capsule pills with 32px height. Default state features `#EBEDEF` fill with `#2E3338` text. Selected state inverts to `#5865F2` fill with white text and a leading dynamic icon.
+- **Presence Indicators**: 10px circular dots encased in a 2px stark white border: Online (`#57F287`), In Transit / Busy (`#ED4245`), Idle / Paused (`#FEE75C`).
+
+### Text Inputs & Search Fields
+- Fully rounded (`9999px`) pill inputs with a `#EBEDEF` baseline fill, shifting to `#FFFFFF` with a crisp 2px primary blurple outline (`#5865F2`) on focus.
+- Placeholder text in `#4E5058` at `body-sm`. Leading search or ping icon tinted in muted slate.
+
+### Lists & Activity Feeds
+- **Channels & Direct Pings**: 40px height items with `0.5rem` inner padding and `rounded-lg` corners. Hover fills with `#EBEDEF`. Active channel item is highlighted with `#FFFFFF` elevation level 1 and a prominent `#5865F2` left accent pill.
+- **Live Activity Feed Items**: Horizontal cards displaying user avatar squircle, activity badge, real-time pace/distance metric in `Space Grotesk`, and a quick ping pill.
+
+### Cards & Map Overlays
+- **Map POI & Member Flyouts**: Level 3 floating white card (`rounded-xl`, padding `space-md`). Contains header with squircle avatar, active speed/heading telemetry badge, and quick action bar (Voice Ping, Navigate, Direct Message).
+- **Audio HUD Tray**: Bottom-anchored pill container featuring glassmorphic white acrylic, housing mute/deafen capsules and active participant speaker ripples illuminated in Mint (`#57F287`).
+
+### Selection Controls (Checkboxes & Radios)
+- Fully curved toggle switches and radio rings using `#EBEDEF` off-tracks, activating instantly to `#5865F2` with smooth sliding white round knobs.
